@@ -305,6 +305,7 @@ body._lock {
   position: relative;
   z-index: 100;
   background: var(--white);
+  border-bottom: 0.5px solid #000;
 }
 
 .header__body {
@@ -328,7 +329,7 @@ body._lock {
 }
 
 .header__logo img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -523,12 +524,11 @@ body._lock {
 
 .submenu {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 0.5px);
   left: 0;
   width: 100%;
   background: var(--white);
   padding: 36px 0 56px;
-  border-top: 0.5px solid #000;
   opacity: 0;
   visibility: hidden;
   transform: translate(0, 30px);
@@ -567,7 +567,7 @@ body._lock {
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: repeat(2, auto);
   grid-auto-flow: column;
-  row-gap: 12px;
+  row-gap: 6px;
   -moz-column-gap: 16px;
        column-gap: 16px;
 }
@@ -629,6 +629,11 @@ body._lock {
   height: 100%;
   stroke: #000;
   transition: all 0.5s ease;
+}
+
+.search {
+  flex: 1 1 auto;
+  max-width: 425px;
 }
 
 .search.focus .search__input input::-moz-placeholder {
@@ -812,7 +817,7 @@ body._lock {
 }
 
 .breadcrumbs__wrapper {
-  padding-bottom: 5px;
+  padding: 5px 0;
   border-radius: 5px;
   background: var(--white);
   overflow-x: auto;
@@ -842,7 +847,6 @@ body._lock {
 }
 
 .breadcrumbs__body {
-  padding: 2px 16px;
   width: -moz-max-content;
   width: max-content;
 }
@@ -3126,10 +3130,6 @@ body._lock {
     gap: calc(8px + 8 * (100vw - 320px) / 1600);
   }
 
-  .breadcrumbs {
-    margin-bottom: calc(8px + 8 * (100vw - 320px) / 1600);
-  }
-
   .breadcrumbs__link {
     font-size: calc(0.75rem + 0 * (100vw - 20rem) / 1600);
   }
@@ -3413,6 +3413,11 @@ body._lock {
     width: 100%;
   }
 
+  .menu__link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+  }
+
   .menu__btn {
     display: flex;
     align-items: center;
@@ -3488,9 +3493,20 @@ body._lock {
     overflow: hidden;
   }
 
+  .submenu__item {
+    padding-bottom: 6px;
+    border-bottom: 0.5px solid #000;
+  }
+
+  .submenu__link {
+    font-size: 0.9375rem;
+    font-weight: 600;
+  }
+
   .submenu__category {
     flex: 1 1 100%;
-    font-size: 0.875rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
     text-transform: uppercase;
   }
 
@@ -3516,12 +3532,13 @@ body._lock {
     left: 0;
     right: 0;
     top: 0;
-    height: 65px;
-    padding: 0 16px;
+    height: 66px;
+    padding: 0 16px 0 0;
     transform: translate(0, -100%);
     transition: all 0.5s ease;
     background: #153448;
     z-index: 500;
+    max-width: unset;
   }
 
   .search.active {
@@ -3531,6 +3548,7 @@ body._lock {
 
   .search__body {
     flex: 1 1 auto;
+    height: 100%;
   }
 
   .search__close {
@@ -3817,6 +3835,10 @@ body._lock {
 }
 
 @media (max-width: 480px) {
+  .header__logo a {
+    width: 185px;
+  }
+
   .header__user {
     display: none;
   }

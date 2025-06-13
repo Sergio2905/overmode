@@ -172,3 +172,10 @@ body._lock {
   margin-top: 36px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  .maintenence {
+    justify-content: flex-start;
+    padding-top: 10vh;
+  }
+}
