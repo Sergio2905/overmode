@@ -824,6 +824,7 @@ body._lock {
 .breadcrumbs {
   margin: 6px 0;
   position: relative;
+  min-height: 32px;
 }
 
 .breadcrumbs__wrapper {
@@ -3140,10 +3141,6 @@ body._lock {
     gap: calc(8px + 8 * (100vw - 320px) / 1600);
   }
 
-  .breadcrumbs__link {
-    font-size: calc(0.75rem + 0 * (100vw - 20rem) / 1600);
-  }
-
   .looks__main {
     padding: calc(8px + 8 * (100vw - 320px) / 1600);
   }
@@ -3600,10 +3597,6 @@ body._lock {
   .header__icons {
     flex: 1 1 auto;
     justify-content: flex-end;
-  }
-
-  .breadcrumbs__link {
-    font-size: calc(0.875rem + 3 * (100vw - 20rem) / 1600);
   }
 
   .looks__mode {
