@@ -117,6 +117,26 @@ body._lock {
   min-width: 360px;
 }
 
+.wrapper::after {
+  content: "";
+  position: fixed;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: var(--app-height);
+  background: #000;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.wrapper.blur::after {
+  opacity: 0.5;
+  visibility: visible;
+}
+
 .container {
   max-width: 1657px;
   margin: 0 auto;
@@ -7774,19 +7794,27 @@ body._lock {
 .menu-footer__body {
   display: flex;
   align-items: flex-end;
-  flex-wrap: wrap;
 }
 
 .menu-footer__list {
   display: grid;
   grid-auto-flow: column;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(2, auto);
+}
+
+.menu-footer__list:nth-child(2) {
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-footer__item {
   padding-right: 64px;
   margin-bottom: 8px;
+}
+
+.menu-footer__item_mob {
+  display: none;
 }
 
 .menu-footer__link {
@@ -7802,6 +7830,10 @@ body._lock {
   text-transform: uppercase;
 }
 
+.menu-footer__socisals .menu-footer__item {
+  padding: 0;
+}
+
 .menu-footer__social {
   min-height: 25px;
   display: flex;
@@ -7812,7 +7844,8 @@ body._lock {
   font-weight: 500;
   color: var(--white);
   text-transform: uppercase;
-  margin-bottom: 8px;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .menu-footer__social svg {
@@ -9694,10 +9727,6 @@ body._lock {
     margin-bottom: 0;
   }
 
-  .menu-footer__list {
-    grid-template-rows: repeat(4, 1fr);
-  }
-
   .menu-footer__socisals {
     flex: 1 1 100%;
     display: flex;
@@ -9987,23 +10016,34 @@ body._lock {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
-  .menu-footer__body {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  .menu-footer__list:nth-child(2) {
+    display: none;
   }
 
   .menu-footer__list {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    -moz-columns: 2 150px;
+         columns: 2 150px;
   }
 
   .menu-footer__item {
     margin-bottom: 16px;
+    padding: 0;
+    -moz-column-break-inside: avoid;
+         break-inside: avoid;
+    page-break-inside: avoid;
   }
 
-  .menu-footer__social {
-    margin-bottom: 16px;
+  .menu-footer__item_mob {
+    display: block;
+  }
+
+  .menu-footer__socisals {
+    gap: unset;
+    flex: unset;
+    display: block;
+    -moz-columns: 2 150px;
+         columns: 2 150px;
   }
 }
 
