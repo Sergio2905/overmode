@@ -805,8 +805,8 @@ body._lock {
   width: 18px;
   height: 18px;
   transform: translate(0, -50%);
-  -webkit-mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
-          mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
   background: var(--black);
   transition: all 0.2s linear;
   border-radius: 50%;
@@ -1363,8 +1363,8 @@ body._lock {
   width: 20px;
   height: 20px;
   transform: translate(0, -50%);
-  -webkit-mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
-          mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
   background: #000;
   transition: all 0.2s linear;
 }
@@ -1660,7 +1660,7 @@ body._lock {
   width: 100%;
   aspect-ratio: 250/320;
   position: relative;
-  background: url("../img/loading.gif") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/loading.gif") 50% no-repeat;
   display: flex;
   align-items: flex-end;
   overflow: hidden;
@@ -2192,8 +2192,8 @@ body._lock {
   transform: translate(0, -50%) rotate(-180deg);
   width: 24px;
   height: 24px;
-  -webkit-mask: url("../img/icons/icons.svg#arrow2") 50% no-repeat;
-          mask: url("../img/icons/icons.svg#arrow2") 50% no-repeat;
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") 50% no-repeat;
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") 50% no-repeat;
   background: #000;
   transition: all 0.3s linear;
   border-radius: 50%;
@@ -2314,7 +2314,7 @@ body._lock {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: url("../img/icons/icons.svg#radio");
+  background: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#radio");
   opacity: 0;
   visibility: hidden;
   transition: all 0.2s linear;
@@ -2392,7 +2392,7 @@ body._lock {
   transform: translate(0, -50%) scale(0);
   width: 20px;
   height: 20px;
-  background: url("../img/icons/icons.svg#checkbox") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#checkbox") 50% no-repeat;
   transition: all 0.2s linear;
   opacity: 0;
   visibility: hidden;
@@ -2638,8 +2638,8 @@ body._lock {
   width: 20px;
   height: 20px;
   transform: translate(0, -50%);
-  -webkit-mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
-          mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
   background: #000;
   transition: all 0.2s linear;
 }
@@ -2766,7 +2766,7 @@ body._lock {
   transform: translate(0, -50%);
   width: 16px;
   height: 16px;
-  background: url("../img/icons/icons.svg#close") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#close") 50% no-repeat;
 }
 
 .filters__btn svg {
@@ -3260,7 +3260,7 @@ body._lock {
   align-items: center;
   justify-content: center;
   padding: 0 30px;
-  background: url("../img/loading.gif") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/loading.gif") 50% no-repeat;
 }
 
 .viewer__image.active img {
@@ -3587,8 +3587,8 @@ body._lock {
   width: 18px;
   height: 18px;
   transform: translate(0, -50%);
-  -webkit-mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
-          mask: url("../img/icons/icons.svg#arrow2") center/cover no-repeat;
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#arrow2") center/cover no-repeat;
   background: var(--black);
   transition: all 0.2s linear;
   border-radius: 50%;
@@ -3643,8 +3643,8 @@ body._lock {
   width: 18px;
   height: 18px;
   border-radius: 3px;
-  -webkit-mask: url("../img/icons/icons.svg#check") center/14px 14px no-repeat;
-          mask: url("../img/icons/icons.svg#check") center/14px 14px no-repeat;
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#check") center/14px 14px no-repeat;
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#check") center/14px 14px no-repeat;
   background: #fff;
   opacity: 0;
   transform: translate(0, -50%) scale(0);
@@ -3944,7 +3944,7 @@ body._lock {
   aspect-ratio: 1/1;
   height: 100%;
   position: relative;
-  background: url("../img/loading.gif") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/loading.gif") 50% no-repeat;
 }
 
 .cookies__image img {
@@ -4377,8 +4377,8 @@ body._lock {
   left: 0;
   width: 24px;
   height: 24px;
-  -webkit-mask: url("../img/icons/icons.svg#quote");
-          mask: url("../img/icons/icons.svg#quote");
+  -webkit-mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#quote");
+          mask: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#quote");
   background: #000;
 }
 
@@ -4418,7 +4418,7 @@ body._lock {
   border-radius: 20px;
   overflow: hidden;
   margin-bottom: 8px;
-  background: url("../img/loading.gif") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/loading.gif") 50% no-repeat;
 }
 
 .article__image picture img,
@@ -4724,7 +4724,7 @@ body._lock {
   width: 100%;
   height: 100%;
   position: relative;
-  background: url("../img/loading.gif") 50% no-repeat;
+  background: url("https://sergio2905.github.io/overmode/img/loading.gif") 50% no-repeat;
   cursor: pointer;
 }
 
@@ -7514,7 +7514,7 @@ body._lock {
     transform: translate(0, -50%);
     width: 16px;
     height: 16px;
-    background: url("../img/icons/icons.svg#checked") center/contain no-repeat;
+    background: url("https://sergio2905.github.io/overmode/img/icons/icons.svg#checked") center/contain no-repeat;
   }
 
   .count-category__select .select-btn,
